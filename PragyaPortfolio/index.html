@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        
+  <link rel="stylesheet" type="text/css" href="maincss.css">
+  
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+        
+
+</head>
+<body>
+  <div class="loader">
+    <div class="notebook">
+      <div class="image-container">
+        <img src="cute.png" alt="Image" class="image">
+      </div>
+      <div class="wipe"></div>
+      <h1 id="helloText">Hello</h1>
+      <button class="btn" onclick="redirectToMainPage()">Let's Go</button>
+    </div>
+    
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="scripts.js"></script>
+  <script>
+    function redirectToMainPage() {
+      window.location.href = 'mainpage.html';
+    }
+  </script>
+  
+</body>
+</html>
